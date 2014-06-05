@@ -664,9 +664,9 @@ def speedtest():
         print_('Share results: http://www.speedtest.net/result/%s.png' %
                resultid[0])
 			   
-	if args.emoncms:
-        print_('Sending results to Emoncms')
-		#more code to come
+	 if args.emoncms:
+            print_('Sending results to Emoncms')
+			#more code to come
 
 def main():
     try:
