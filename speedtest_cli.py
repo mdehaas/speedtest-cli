@@ -463,8 +463,8 @@ def speedtest():
     parser.add_argument('--list', action='store_true',
                         help='Display a list of speedtest.net servers '
                              'sorted by distance')
-    parser.add_argument('--emoncms', action='store_true'
-	                    help='URL of Emoncms instance'
+    parser.add_argument('--emoncms', action='store_true',
+	                    help='URL of Emoncms instance')
     parser.add_argument('--server', help='Specify a server ID to test against')
     parser.add_argument('--mini', help='URL of the Speedtest Mini server')
     parser.add_argument('--source', help='Source IP address to bind to')
